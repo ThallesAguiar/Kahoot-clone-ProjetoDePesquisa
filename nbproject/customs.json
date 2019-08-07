@@ -1,0 +1,11 @@
+{
+    "elements": {},
+    "attributes": {
+        "type": {
+            "context": "textarea"
+        },
+        "height": {
+            "context": "div"
+        }
+    }
+}

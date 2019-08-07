@@ -1,0 +1,13 @@
+#success_message{ display: none;}
+
+body{
+    background-image: url(../../../imagens/gramado.jpg);
+    background-size: cover;
+}
+
+fieldset{
+    background-color:rgba(0,0,0,.3);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+

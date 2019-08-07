@@ -1,0 +1,32 @@
+VALIDATE.PHP
+
+Ao fazer login, a página inicial <..\pagina-inicial\index.html>
+chama o arquivo <../sessao/validate.php>, que verifica o tipo de
+permissão do usuário, login e senha.
+Se tudo estiver corretamente identificado, chama o arquivo 
+<../sessao/restrito.php>
+-------------------------------------------------------------------
+RESTRITO.PHP
+
+Arquivo responsável por verificar o nível do usuário autenticado
+e redireciona ao sistema correto.
+-------------------------------------------------------------------
+PAGINA-ALUNO.php
+a ser desenvolvida
+-------------------------------------------------------------------
+PAGINA-ADMIN.php
+a ser desenvolvida
+-------------------------------------------------------------------
+PAGINA-PROF.php
+
+Apenas identifica o usuário e seu nível e apresenta o link 
+para o sistema correto.
+Abre o arquivo <..\pagina-painel\tphe\_prof.php>, que é o 
+Painel Administrativo do Professor.
+-------------------------------------------------------------------
+DESTROI_SESSAO.PHP
+
+Logout do sistema. E redireciona para a página inicial.
+
+
+

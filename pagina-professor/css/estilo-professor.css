@@ -1,0 +1,197 @@
+/*Inclusão de font*/
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Kirang+Haerang');
+
+#logo-tphe{
+    font-family: 'Indie Flower', cursive;
+    color:gold;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 25pt
+}
+
+.criar-quiz{
+	font-size: 2em;
+    color: #e4d50b;
+    text-shadow: 0px 0px 7px #585858;
+}
+
+.botoes-tipo-jogo{
+  width:200px;
+  height:48px;
+}
+
+
+/*CARROSEL*/
+
+/* ESTILOS GLOBAIS
+-------------------------------------------------- */
+/* Padding abaixo do footer e texto mais suave no <body> */
+
+body {
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZA O CAROUSEL
+-------------------------------------------------- */
+
+/* Classe base do carousel */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Já que usamos posicionamento de imagens, precisaremos fazer alguns ajustes na legenda */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declaramos alturas, devido ao posicionamento do elemento img */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* CONTEÚDO DO MARKETING
+-------------------------------------------------- */
+
+/* Alinha, centralmente, o texto dentro das três colunas abaixo do carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featrurezinhas
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Espaça o elemento <hr> mais */
+}
+
+/* Afina os cabeçalhos de marketing */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* CSS RESPONSIVE
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Aumenta o tamanho do conteúdo do carousel */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+/*CSS das Atualizações dos alunos*/
+html,
+body {
+  overflow-x: hidden; /* Previne rolagem, em dispositivos estreitos */
+}
+
+
+
+@media (max-width: 991.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 56px; /* Altura da navbar */
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #343a40;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    transition-property: left, visibility;
+  }
+  .offcanvas-collapse.open {
+    left: 0;
+    visibility: visible;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  color: rgba(255, 255, 255, .75);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+  color: #007bff;
+}
+
+.nav-underline .active {
+  font-weight: 500;
+  color: #343a40;
+}
+
+.text-white-50 { color: rgba(255, 255, 255, .5); }
+
+.bg-purple { background-color: #6f42c1; }
+
+.lh-100 { line-height: 1; }
+.lh-125 { line-height: 1.25; }
+.lh-150 { line-height: 1.5; }
+
+
+/*Pagina TIPO-JOGO.PHP*/
+
